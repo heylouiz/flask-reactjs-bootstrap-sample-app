@@ -1,0 +1,40 @@
+{
+  "name": "flask-reactjs-bootstrap",
+  "version": "1.0.0",
+  "description": "Flask ReactJS Bootstrap sample app",
+  "dependencies": {
+    "babel-polyfill": "~6.5.0",
+    "jquery": "~2.1.1",
+    "react": "^0.14.8",
+    "react-bootstrap": "^0.30.6",
+    "react-dom": "~0.14.8",
+    "react-router": "^2.0.0",
+    "webpack": "^1.12.15",
+    "wepack": "0.0.1"
+  },
+  "devDependencies": {
+    "webpack": "~1.12.11",
+    "babel-loader": "~6.2.1",
+    "babel-core": "~6.4.0",
+    "babel-preset-es2015": "~6.3.13",
+    "babel-preset-react": "~6.3.13",
+    "path": "~0.12.7",
+    "less": "~2.6.1",
+    "less-loader": "~2.2.3",
+    "style-loader": "~0.13.1",
+    "css-loader": "~0.23.1",
+    "es6-promise": "~3.1.2",
+    "eslint": "~2.5.3",
+    "eslint-loader": "~1.3.0",
+    "eslint-plugin-react": "~4.2.3",
+    "eslint-config-airbnb": "~6.2.0"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack -wd"
+  },
+  "author": "Luiz Francisco Rodrigues da Silva <luizfrdasilva@gmail.com>",
+  "contributors": [],
+  "license": "UNLICENSED",
+  "private": false
+}
